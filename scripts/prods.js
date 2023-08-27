@@ -1,0 +1,46 @@
+export const prodm=[{image:'images/shirt3.jpg',id:'shirt3',name:'Blue shirt',stat:799},
+    {image:'images/shirt4.jpg',id:'shirt4',name:'Brown shirt',stat:749},
+    {image:'images/tshirt1.jpg',id:'tshirt1',name:'Navy blue tshirt',stat:599},
+    {image:'images/tshirt2.jpg',id:'tshirt2',name:'Casual tshirt',stat:549},
+    {image:'images/s1.jpg',id:'s1',name:'Red winterwear',stat:699},
+    {image:'images/s2.jpg',id:'s2',name:'Red hoodie',stat:749},
+    {image:'images/s3.jpg',id:'s3',name:'Blue hoodie',stat:599},
+    {image:'images/s4.jpg',id:'s4',name:'Yellow and blue hoodie',stat:549},
+    {image:'images/s5.jpg',id:'s5',name:'Stylish hoodie',stat:649},
+    {image:'images/tshirt4.jpg',id:'tshirt4',name:'Black tshirt',stat:399}
+    ];
+
+export const prodw=[{image:'images/saree1.jpg',id:'saree1',name:'Deep aqua saree',stat:799},
+    {image:'images/saree2.jpg',id:'saree2',name:'Pink saree',stat:849},
+    {image:'images/ethnic5.jpg',id:'ethnic5',name:'Yellow ethnicwear',stat:949},
+    {image:'images/ethnic6.jpg',id:'ethnic6',name:'Modern lehenga',stat:849},
+    {image:'images/ethnic7.jpg',id:'ethnic7',name:'Blue white lehenga',stat:749},
+    {image:'images/ethnic8.jpg',id:'ethnic8',name:'Black ethnicwear',stat:649},
+     {image:'images/ethnic9.jpg',id:'ethnic9',name:'Deep aqua ethnicwear',stat:749},
+    {image:'images/ethnic10.jpg',id:'ethnic10',name:'Red lehenga',stat:849},
+    {image:'images/top2.jpg',id:'top2',name:'Hoodie',stat:649},
+    {image:'images/top3.jpg',id:'top3',name:'Black winterwear',stat:749},
+    {image:'images/top4.jpg',id:'top4',name:'Gray winterwear',stat:849},
+    {image:'images/ethnic1.jpg',id:'ethnic1',name:'Brown ethnicwear',stat:949},
+    {image:'images/ethnic2.jpg',id:'ethnic2',name:'Light blue ethnicwear',stat:649},
+    {image:'images/ethnic3.jpg',id:'ethnic3',name:'Red and yellow ethnicwear',stat:749},
+    {image:'images/ethnic4.jpg',id:'ethnic4',name:'Fashionable ethnicwear',stat:899},
+    {image:'images/saree3.jpg',id:'saree3',name:'Red and black saree',stat:549} 
+    ];
+
+export const prode=[{image:'images/m2.jpg',id:'a1',name:'Samsung M13',stat:7999},
+    {image:'images/watch1.jpg',id:'watch1',name:'Fireboltt smartwatch',stat:2849},
+    {image:'images/watch2.jpg',id:'watch2',name:'BeatXP smartwatch',stat:1649},
+    {image:'images/m1.jpg',id:'m1',name:'Samsung S20',stat:7849},
+    {image:'images/laptop3.jpg',id:'laptop3',name:'HP Model1',stat:25449},
+    {image:'images/laptop2.jpg',id:'laptop2',name:'HP Model2',stat:27849},
+    {image:'images/laptop1.jpg',id:'laptop1',name:'Acer AL',stat:34549},
+    {image:'images/laptop4.jpg',id:'laptop4',name:'HP Model3',stat:37849},
+    {image:'images/m3.jpg',id:'m3',name:'Samsung Z6',stat:9889},
+    {image:'images/m5.jpg',id:'m5',name:'Apple 12 Pink',stat:57549},
+     {image:'images/m6.jpg',id:'m6',name:'Apple 10 Lightblue',stat:37549},
+    {image:'images/m7.jpg',id:'m7',name:'Apple 10 Red',stat:37549},
+     {image:'images/m8.jpg',id:'m8',name:'Apple 12 Aqua',stat:57449},
+    {image:'images/m9.jpg',id:'m9',name:'Apple 10 Blue',stat:37849},
+    {image:'images/m4.jpg',id:'m4',name:'Samsung M3',stat:6549} 
+    ];
