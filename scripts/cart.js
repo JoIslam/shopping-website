@@ -1,4 +1,4 @@
-export let cart=JSON.parse(localStorage.getItem('cart'));
+export let cart=JSON.parse(sessionStorage.getItem('cart'));
 
 /*if(!cart){
 	cart=[{prodId:'shirt3',quantity:1},
@@ -24,7 +24,7 @@ export function addToCart(prodId){
 
        // document.querySelector('.cart-items').innerHTML=prodId;
       }
-      localStorage.setItem('cart',JSON.stringify(cart));
+      sessionStorage.setItem('cart',JSON.stringify(cart));
     }
 export function removeFromCart(producId){
   const newCart=[];
@@ -34,7 +34,7 @@ export function removeFromCart(producId){
     }
   });
   cart=newCart;
-  localStorage.setItem('cart',JSON.stringify(cart));
+  sessionStorage.setItem('cart',JSON.stringify(cart));
 }
 
 
@@ -50,6 +50,6 @@ export function updateCart(){
     }
     export function orderItem(){
   let cart=[];
-  localStorage.setItem('cart',JSON.stringify(cart));
+  sessionStorage.setItem('cart',JSON.stringify(cart));
 
 }
