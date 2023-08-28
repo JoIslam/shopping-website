@@ -27,4 +27,4 @@ import {cart,addToCart,updateCart} from './cart.js';
             updateCart();
         });
     });
-    updateCart();
+    //updateCart();
