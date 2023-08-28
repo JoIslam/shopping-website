@@ -24,7 +24,7 @@ export function addToCart(prodId){
 
        // document.querySelector('.cart-items').innerHTML=prodId;
       }
-      sessionStorage.setItem('cart',JSON.stringify(cart));
+      //sessionStorage.setItem('cart',JSON.stringify(cart));
     }
 export function removeFromCart(producId){
   const newCart=[];
