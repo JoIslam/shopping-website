@@ -1,5 +1,5 @@
 export let cart=JSON.parse(sessionStorage.getItem('cart'));
-export let cart=[];
+
 /*if(!cart){
 	cart=[{prodId:'shirt3',quantity:1},
 {prodId:'shirt4',quantity:1}];
