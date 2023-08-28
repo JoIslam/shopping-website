@@ -1,9 +1,9 @@
 export let cart=JSON.parse(sessionStorage.getItem('cart'));
 
-if(!cart){
+/*if(!cart){
 	cart=[{prodId:'shirt3',quantity:1},
 {prodId:'shirt4',quantity:1}];
-}
+}*/
 
 export function addToCart(prodId){
       //cart.push({prodId:prodId,quantity:1});
@@ -19,7 +19,7 @@ export function addToCart(prodId){
       }
       else{
       	console.log(prodId);
-        cart.push({prodId:prodId,quantity:1});
+        //cart.push({prodId:prodId,quantity:1});
 
        // document.querySelector('.cart-items').innerHTML=prodId;
       }
