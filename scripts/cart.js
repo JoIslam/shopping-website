@@ -21,7 +21,7 @@ export function addToCart(prodId){
       	console.log(prodId);
         cart.push({prodId:prodId,quantity:1});
 
-       // document.querySelector('.cart-items').innerHTML=prodId;
+        document.querySelector('.cart-items').innerHTML=prodId;
       }
       sessionStorage.setItem('cart',JSON.stringify(cart));*/
     }
