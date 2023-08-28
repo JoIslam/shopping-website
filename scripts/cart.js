@@ -19,7 +19,7 @@ export function addToCart(prodId){
       }
       else{
       	console.log(prodId);
-        //cart.push({prodId:prodId,quantity:1});
+        cart.push({prodId:prodId,quantity:1});
 
        // document.querySelector('.cart-items').innerHTML=prodId;
       }
