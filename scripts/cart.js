@@ -34,7 +34,7 @@ export function removeFromCart(producId){
     }
   });
   cart=newCart;
-  sessionStorage.setItem('cart',JSON.stringify(cart));
+ // sessionStorage.setItem('cart',JSON.stringify(cart));
 }
 
 
@@ -50,6 +50,6 @@ export function updateCart(){
     }
     export function orderItem(){
   let cart=[];
-  sessionStorage.setItem('cart',JSON.stringify(cart));
+  //sessionStorage.setItem('cart',JSON.stringify(cart));
 
 }
