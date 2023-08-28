@@ -1,4 +1,4 @@
-export let cart=JSON.parse(sessionStorage.getItem('cart'));
+export let cart=JSON.parse(localStorage.getItem('cart'));
 //export let cart=[];
 if(!cart){
 	cart=[{prodId:'shirt3',quantity:1},
@@ -33,7 +33,7 @@ export function removeFromCart(producId){
     }
   });
   cart=newCart;
-  sessionStorage.setItem('cart',JSON.stringify(cart));
+  localStorage.setItem('cart',JSON.stringify(cart));
 }
 
 
