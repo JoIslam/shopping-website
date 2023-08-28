@@ -16,8 +16,7 @@ import {cart,addToCart,updateCart} from './cart.js';
     productsHTML=productsHTML+html;
     });
     document.querySelector('.items').innerHTML=productsHTML;
-    
-  
+   
     document.querySelectorAll('.add').forEach((button)=>{
         button.addEventListener('click',()=>{
             //console.log(button.dataset);
