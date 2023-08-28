@@ -33,7 +33,7 @@ export function removeFromCart(producId){
     }
   });
   cart=newCart;
- // sessionStorage.setItem('cart',JSON.stringify(cart));
+  sessionStorage.setItem('cart',JSON.stringify(cart));
 }
 
 
