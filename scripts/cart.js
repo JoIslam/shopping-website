@@ -5,7 +5,6 @@ export let cart=JSON.parse(sessionStorage.getItem('cart'));
 {prodId:'shirt4',quantity:1}];
 }*/
 
-
 export function addToCart(prodId){
       //cart.push({prodId:prodId,quantity:1});
       //localStorage.setItem('cart',JSON.stringify(cart));
