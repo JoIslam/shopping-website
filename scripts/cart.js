@@ -46,8 +46,9 @@ export function updateCart(){
       document.querySelector('.number').innerHTML='Cart'+'('+cartQuantity+')';
 
     }
-    export function orderItem(){
-  let cart=[];
+
+export function orderItem(){
+  let cart=null;
   localStorage.setItem('cart',JSON.stringify(cart));
 
 }
