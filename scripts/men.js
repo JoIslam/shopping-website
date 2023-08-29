@@ -1,5 +1,5 @@
 import {prodm} from './prods.js';
-import {cart,addToCart,updateCart} from './cart.js';
+import {cart,addToCart} from './cart.js';
     let productsHTML='';
     prodm.forEach((produc)=>{
         const html=`<div class="item">
@@ -23,7 +23,7 @@ import {cart,addToCart,updateCart} from './cart.js';
             const prodId=button.dataset.prodId;
            
             addToCart(prodId);
-            updateCart();
+           // updateCart();
         });
     });
     //updateCart();
