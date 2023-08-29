@@ -46,6 +46,6 @@ export function updateCart(){
 }
 
 export function orderItem(){
-  let cart=null;
+  let cart=[];
   localStorage.setItem('cart',JSON.stringify(cart));
 }
