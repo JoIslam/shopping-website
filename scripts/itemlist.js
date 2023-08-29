@@ -1,4 +1,4 @@
-import {cart,removeFromCart,updateCart} from './cart.js';
+import {cart,orderItem,removeFromCart,updateCart} from './cart.js';
 import {prodm,prodw,prode} from './prods.js';
 
 export function updateItems(){
