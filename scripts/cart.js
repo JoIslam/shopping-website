@@ -1,9 +1,8 @@
 export let cart=JSON.parse(localStorage.getItem('cart'));
 //export let cart=[];
-/*if(!cart){
-	cart=[{prodId:'shirt3',quantity:1},
-{prodId:'shirt4',quantity:1}];
-}*/
+if(!cart){
+	cart=[];
+}
 
 export function addToCart(prodId){
       cart.push({prodId:prodId,quantity:1});
