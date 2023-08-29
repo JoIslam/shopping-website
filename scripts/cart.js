@@ -25,6 +25,7 @@ export function addToCart(prodId){
       }
       sessionStorage.setItem('cart',JSON.stringify(cart));*/
     }
+
 export function removeFromCart(producId){
   const newCart=[];
   cart.forEach((cartItem)=>{
@@ -42,13 +43,10 @@ export function updateCart(){
       cart.forEach((carts)=>{
         cartQuantity+=carts.quantity;
       });
-      
       document.querySelector('.number').innerHTML='Cart'+'('+cartQuantity+')';
-
-    }
+}
 
 export function orderItem(){
   let cart=null;
   localStorage.setItem('cart',JSON.stringify(cart));
-
 }
