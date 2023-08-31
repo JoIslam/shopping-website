@@ -115,12 +115,12 @@
             color: red;
           
         }
-         .prod-image{
-          height: 310px;
+         .prod-image img{
+          height: 324px;
           width: 207px;
          }
-        .prod-image img{
-          height: 310px;
+       .prod-image img{
+          height: 100%;
             width: 100%; 
           
         }
