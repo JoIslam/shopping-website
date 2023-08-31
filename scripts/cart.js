@@ -1,3 +1,4 @@
+
 export let cart=JSON.parse(localStorage.getItem('cart'));
 //export let cart=[];
 if(!cart){
@@ -22,6 +23,7 @@ export function addToCart(prodId){
 
         //document.querySelector('.cart-items').innerHTML=prodId;
       }
+	console.log(cart);
       sessionStorage.setItem('cart',JSON.stringify(cart));
     }
 
