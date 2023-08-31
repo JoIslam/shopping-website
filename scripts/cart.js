@@ -4,7 +4,19 @@ if(!cart){
 	cart=[];
 }
 export function addToCart(prdctId){
-	cart.push({prodId:prdctId,quantity:1});
+	let matchingItem;
+	cart.forEach((kart)=>{
+		if(prdctId===kart.prodId){
+			matchingItem=kart;
+		}
+	});
+	if(matchingItem){
+		matchingItem.quantity+=1;
+	}
+	else{
+	     cart.push({prodId:prdctId,quantity:1});	
+	}
+	
 	localStorage.setItem('cart',JSON.stringify(cart));
 } 
 
