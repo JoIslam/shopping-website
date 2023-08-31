@@ -27,7 +27,7 @@ export function updateItems(){
 			
 		});
 	const html=`<div class="item">
-	<div class="prod-image"> <img src=${matchingProdCart.image}></div>
+	<div class="item-preview"> <img src=${matchingProdCart.image}></div>
 	<div class="prod-name">${matchingProdCart.name}</div>
 	<div class="prod-value">Rs:${matchingProdCart.stat}</div>
 	<div class="quantity">Quantity:${cartItem.quantity}</div>
