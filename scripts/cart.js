@@ -5,9 +5,9 @@ if(!cart){
 }*/
 
 export function addToCart(prodId){
-   //  cart.push({prodId:prodId,quantity:1});
-   //   localStorage.setItem('cart',JSON.stringify(cart));
-      let matchingItem;
+   cart.push({prodId:prodId,quantity:1});
+    localStorage.setItem('cart',JSON.stringify(cart));
+    /*  let matchingItem;
       cart.forEach((kart)=>{
         if(prodId===kart.prodId){
           matchingItem=kart;
@@ -23,7 +23,7 @@ export function addToCart(prodId){
         //document.querySelector('.cart-items').innerHTML=prodId;
       }
 	console.log(cart);
-      localStorage.setItem('cart',JSON.stringify(cart));
+      localStorage.setItem('cart',JSON.stringify(cart));*/
     }
 
 export function removeFromCart(producId){
